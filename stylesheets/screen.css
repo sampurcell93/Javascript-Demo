@@ -123,8 +123,9 @@ section:not(.colon) {
   color: #ed9017;
   font-size: 1.4em;
   position: relative;
+  border-top: 1px solid #666;
 }
-/* line 55, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 section:not(.colon):after {
   opacity: .8;
   content: "";
@@ -137,12 +138,12 @@ section:not(.colon):after {
   pointer-events: none;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .colon {
   width: 20px;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 button {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -171,7 +172,7 @@ button {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
-/* line 92, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 button:hover {
   color: #ed9017;
 }
